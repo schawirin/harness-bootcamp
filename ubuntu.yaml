@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: ubuntu
-        image: delfiatech/harness-delfia-public:latest
+        image: delfiatech/harness-delfia-public:v3
         ports:
         - containerPort: 80
       tolerations:
